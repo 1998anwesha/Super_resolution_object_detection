@@ -1,0 +1,4 @@
+yolo task=detect mode=train data=C:/Users/Asus/Downloads/Computer_vision/Project/train_dataset/custom_dataset.yaml model=yolo11s.pt epochs=100 imgsz=1280
+
+
+yolo task=detect mode=predict model= runs/detect/train/weights/last.pt conf=0.2 iou=0.1 source = few_images
