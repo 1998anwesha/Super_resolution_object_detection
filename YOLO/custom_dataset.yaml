@@ -1,0 +1,12 @@
+train: C:/Users/Asus/Downloads/Computer_vision/Project_3/yolo_dataset/train/images
+val: C:/Users/Asus/Downloads/Computer_vision/Project_3/yolo_dataset/val/images
+nc: 8
+names:
+  0: plane
+  1: ship
+  2: harbor
+  3: bridge
+  4: large-vehicle
+  5: small-vehicle
+  6: helicopter
+  7: swimming-pool
