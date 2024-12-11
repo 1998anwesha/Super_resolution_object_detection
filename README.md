@@ -17,9 +17,26 @@ Link to download YOLOv11 and YOLOv11-OBB models: [link](https://drive.google.com
 
 # Streamlit GUI
 
-Choose a few test images from the DOTA V1 dataset for the GUI demo. The object detection results on these images highlight the improvements achieved by using SRGAN for super-resolution compared to low-resolution inputs. 
-We observe that there is an improvement in the average confidence scores of OBB detections and there is an increase in the total number of small objects detected on Super resolved images.
+We developed a Streamlit-based GUI for interacting with the super-resolution and object detection pipeline. Choose a few test images from the DOTA V1 dataset for the GUI demo. The GUI offers the following features:
+#### 1. Image Upload & Model Selection: Users can upload images, select object detection models (YOLOv11 or YOLOv11-OBB), and super-resolution models (SRGAN or SRResNet) to observe differences.
 
-SRGAN results visualization in GUI:
 
-![gui1]()
+#### 2. Super-Resolution Results: Displays super-resolved images with PSNR and SSIM metrics compared to the high-resolution ground truth.
+![gui1](https://github.com/anwesha-umn/Super_resolution_object_detection/blob/main/imgs/gui1.png)
+
+
+#### 3. Object Detection on Super-Resolved Images: Shows detected objects with bounding boxes and class labels using the chosen YOLO model.
+
+![gui2](https://github.com/anwesha-umn/Super_resolution_object_detection/blob/main/imgs/gui2.png)
+
+#### 4. Comparison of Low-Resolution vs. Super-Resolved Detections: 
+        + Number of detections (confidence ≥ 0.5).
+        + Average confidence scores for detections.
+![gui3](https://github.com/anwesha-umn/Super_resolution_object_detection/blob/main/imgs/gui3.png)
+
+This GUI allows users to visually assess how SRGAN improves object detection on real-world test data.
+
+
+
+
+
