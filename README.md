@@ -17,7 +17,12 @@ Link to download YOLOv11 and YOLOv11-OBB models: [link](https://drive.google.com
 
 # Streamlit GUI
 
-We developed a Streamlit-based GUI for interacting with the super-resolution and object detection pipeline. Choose a few test images from the DOTA V1 dataset for the GUI demo. The GUI offers the following features:
+We developed a Streamlit-based GUI for interacting with the super-resolution and object detection pipeline. Choose a few test images from the DOTA V1 dataset for the GUI demo. 
+To see how the GUI works, run the following code:
+```python
+streamlit run GUI.py
+```
+The GUI offers the following features:
 #### 1. Image Upload & Model Selection: Users can upload images, select object detection models (YOLOv11 or YOLOv11-OBB), and super-resolution models (SRGAN or SRResNet) to observe differences.
 
 
