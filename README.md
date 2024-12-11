@@ -30,8 +30,8 @@ We developed a Streamlit-based GUI for interacting with the super-resolution and
 ![gui2](https://github.com/anwesha-umn/Super_resolution_object_detection/blob/main/imgs/gui2.png)
 
 #### 4. Comparison of Low-Resolution vs. Super-Resolved Detections: 
-        + Number of detections (confidence ≥ 0.5).
-        + Average confidence scores for detections.
+        i) Number of detections (with confidence ≥ 0.5).
+        ii) Average confidence scores for detections.
 ![gui3](https://github.com/anwesha-umn/Super_resolution_object_detection/blob/main/imgs/gui3.png)
 
 This GUI allows users to visually assess how SRGAN improves object detection on real-world test data.
