@@ -28,17 +28,19 @@ The GUI offers the following features:
 
 #### 2. Super-Resolution Results: Displays super-resolved images with PSNR and SSIM metrics compared to the high-resolution ground truth.
 ![gui1](https://github.com/anwesha-umn/Super_resolution_object_detection/blob/main/imgs/gui1.png)
-
+![gui4](https://github.com/anwesha-umn/Super_resolution_object_detection/blob/main/imgs/gui4.png)
 
 #### 3. Object Detection on Super-Resolved Images: Shows detected objects with bounding boxes and class labels using the chosen YOLO model.
 
 ![gui2](https://github.com/anwesha-umn/Super_resolution_object_detection/blob/main/imgs/gui2.png)
 
+![gui5](https://github.com/anwesha-umn/Super_resolution_object_detection/blob/main/imgs/gui5.png)
+
 #### 4. Comparison of Low-Resolution vs. Super-Resolved Detections: 
         i) Number of detections (with confidence ≥ 0.5).
         ii) Average confidence scores for detections.
 ![gui3](https://github.com/anwesha-umn/Super_resolution_object_detection/blob/main/imgs/gui3.png)
-
+![gui6](https://github.com/anwesha-umn/Super_resolution_object_detection/blob/main/imgs/gui6.png)
 This GUI allows users to visually assess how SRGAN improves object detection on real-world test data.
 
 
